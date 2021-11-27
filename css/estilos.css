@@ -2,7 +2,7 @@ div { border-radius: 5px; }
 
 #encabezado {text-align: right;   z-index:1; position: fixed; background-color: rgb(194, 191, 191); width: 80%; height: 100px; border: 2px dotted rgb(10, 10, 10); font-family: Times; margin-top: -10px; margin-bottom: 10px; }
 
-.izquierda {float: left; background-color: rgb(144, 197, 247); width: 25%; height: 965px; margin-top: 1px; margin-bottom: 1px; }
+.izquierda {float: left; background-color: rgb(144, 197, 247); width: 25%; height: 1000px; margin-top: 1px; margin-bottom: 1px; }
 
 .derecha {float: right; background-color: rgb(255, 255, 255); width: 73%; height: 900px; margin-top: 1px; margin-bottom: 1px;}
 
@@ -12,9 +12,9 @@ div { border-radius: 5px; }
  
 #email:hover { font-weight: bold; color: rgb(0, 0, 0); }
 
-#name {float: center;  color: rgb(0, 0, 0); font-size: 1.5em; margin: 22px 10px 10px 10px; }
+#name {float: center;  color: rgb(0, 0, 0); font-size: 1.5em; margin: 22px 10px 10px 10px; text-shadow: 7px 4px 5px gray;}
 
-#cargo {float: left;  color: rgb(0, 0, 0); font-size: 1.8em; margin: 2px 2px 2px 2px;}
+#cargo {float: left;  color: rgb(0, 0, 0); font-size: 1.8em; margin: 2px 2px 2px 2px; font-family:fantasy;}
 
 #name:hover { font-weight: bold; color: rgb(3, 3, 3); border: rgb(10, 10, 10); }
 
@@ -24,18 +24,19 @@ h4 { color: rgb(10, 11, 12);}
 
 #direccion {text-align: center; color: rgb(0, 0, 0); }
 
-#titulos {text-align:center; font-weight: bold;  color: rgb(0, 0, 0);font-size: large; margin-top: 30px;}
+#titulos {text-align:center; font-weight: bold;  color: rgb(0, 0, 0);font-size: large; margin-top: 30px; font-family: cursive;}
 
-#titulosderecha {text-align:justify; font-weight: bold;  color: rgb(0, 0, 0);font-size: large; }
+#titulosderecha {text-align:justify; font-weight: bold;  color: rgb(0, 0, 0);font-size: large; font-family: cursive; }
 
 #subtitulos {text-align:left; font-weight: bold;  color: rgb(0, 0, 0);font-size: medium; margin-left: 15px; }
 
-#textosexp {text-align:justify;  color: rgb(0, 0, 0);font-size: medium; margin-left: 30px; margin-bottom: 20px; margin-right: 20px; }
+#textosexp {text-align:justify;  color: rgb(0, 0, 0);font-size: medium; margin-left: 30px; margin-bottom: 20px; margin-right: 20px; font-family: Georgia; }
 
 #margen-top { margin-top: 8 px; }
 
-#perfil{ margin-left: 20px; margin-right: 20px;}
+#perfil{ margin-left: 20px; margin-right: 20px; font-family: Georgia;}
 
 #foto{text-align: center;}
 
 #fotocircular{ text-align: center; border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; border-bottom-right-radius: 50% 50%;}
+
